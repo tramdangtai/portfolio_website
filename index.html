@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- FONT AWESONE CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="style.css">
+    <title>Responsive Portfolio Website | Here's The Code</title>
+</head>
+<body>
+    <!-- HEADER SECTION -->
+    <header class="header">
+        <a href="#" class="logo">Porfolio</a>
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <!-- HOME SECTION -->
+    <section class="home" id="home">
+        <div class="home__content">
+            <h3>Hi, Myself</h3>
+            <h1>Dang Tai</h1>
+            <h3>And I'm a <span class="multiple-text"></span></h3>
+            <p>I'm interested in technology, data and how it can be used to help people work faster and more efficiently.!</p>
+            <div class="social__media">
+                <a href="https://www.facebook.com/dangtai.tram"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://github.com/tramdangtai"><i class="fa-brands fa-github"></i></a>
+                <a href="mailto:dattram41@gmail.com"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <a href="images/Data Analyst - Tram Dang Tai - CV English.pdf" class="btn" download >Download CV</a>
+        </div>
+        <div class="home__img">
+            <img src="images/profile_tramdangtai_background.png" alt="portrait">
+        </div>
+    </section>
+    <!-- ABOUT SECTION -->
+    <section class="about" id="about">
+        <div class="about__img">
+            <img src="images/picture_aboutme.png" alt="about me image">
+        </div>
+        <div class="about__content">
+            <h2 class="heading">About <span>Me</span></h2>
+            <h3>Data Analyst</h3>
+            <p>This journey started with me getting to know Excel, then to automating Excel with VBA, then to Python, and now to the Web!</p>
+            <a href="" class="btn">Read more</a>
+        </div>
+    </section>
+    <!-- SERVICES SECTION -->
+    <section class="services" id="services">
+        <h2 class="heading">
+            My <span>Services</span>
+        </h2>
+        <div class="services__container">
+            <!-- JS SERVICE BOX -->
+        </div>
+    </section>
+    <!-- PORTFOLIO SECTION -->
+    <section class="portfolio" id="portfolio">
+        <h2 class="heading">
+            Latest <span>Projests</span>
+        </h2>
+        <div class="portfolio__container">
+            <!-- PROJECT INFO - GET FROM PROJECT.JSON FILE -->
+        </div>
+    </section>
+    <!-- CONTACT SECTION -->
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact <span>Me</span></h2>
+        <form name="submit-to-google-sheet">
+            <div class="input__box">
+                <input type="text" placeholder="Your Full name" name="name" required>
+                <input type="email" placeholder="Your Email Address" name="email">
+            </div>
+            <div class="input__box">
+                <input type="number" placeholder="Your Mobie Number" name="phone">
+                <input type="text" placeholder="Email Subject" name="email_subject">
+            </div>
+            <textarea cols="30" rows="10" placeholder="Your Message" name="message" required></textarea>
+            <input type="submit" value="Send Message" class="btn">
+            <p id="msg"></p>
+        </form>
+    </section>
+    <!-- FOOTER SECTION -->
+    <footer class="footer">
+        <div class="footer__text">
+            <p>Copyright &copy; 2025 by @tramdangtai | All Rights Reserved.</p>
+        </div>
+        <div class="footer__iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+
+
+</body>
+    <!-- SCROLL REVEAL -->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- TYPED JS -->
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <!-- MAIN JS -->
+    <script src="scripts/services.js"></script>
+    <script src="scripts/projects.js"></script>
+    <script src="/scripts/script.js"></script>
+    <script src="scripts/submitToGoogleSheet.js"></script>
+</html>

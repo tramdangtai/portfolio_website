@@ -1,0 +1,44 @@
+[
+    {
+        "index": 1,
+        "title": "Ecom Website",
+        "des": "Car Rental Website - UX/UI, can select info, swiper, responsive.",
+        "source": "https://tramdangtai.github.io/ecom-projects-01-car-rental-website/",
+        "imgPath": "images/project_img_car_rental.png"
+    },
+    {
+        "index": 2,
+        "title": "Ecom Website",
+        "des": "Burger House Website - UX/UI with only HTML, CSS, JavaScript and receive info from form to Google Sheet.",
+        "source": "https://tramdangtai.github.io/ecom-projects-02-burger-house-website/",
+        "imgPath": "images/project_img_burger_house.png"
+    },
+    {
+        "index": 3,
+        "title": "Add to Cart",
+        "des": "Build a Mobile App with HTML, CSS, JavaScript and Firedatabase (Real Time Database).",
+        "source": "https://tramdangtai.github.io/moble-apps-add-to-cart/",
+        "imgPath": "images/project_img_add_to_cart.png"
+    },
+    {
+        "index": 4,
+        "title": "Portfolio Website",
+        "des": "Build Portfolio Website, show your skills, experience, education and more. Receive info from form to Google Sheet.",
+        "source": "https://tramdangtai.github.io/portfolio-websites-01-youtuber-greatstack/",
+        "imgPath": "images/project_img_portfolio_website.png"
+    },
+    {
+        "index": 5,
+        "title": "Web Scraping",
+        "des": "Get data from web: bocaodientu, masothue, thuvienphapluat and save in excel file.",
+        "source": "https://github.com/tramdangtai/webscraping_projects",
+        "imgPath": "images/project_img_web_scraping.jpg"
+    },
+    {
+        "index": 6,
+        "title": "Build Dashboard",
+        "des": "Optimize Operations by Analyzing Failed Orders using Power BI",
+        "source": "https://github.com/tramdangtai/powerbi_projects",
+        "imgPath": "images/project_img_build_dasdboard.jpg"
+    }
+]

@@ -1,0 +1,23 @@
+[
+    {
+        "index": 1,
+        "service": "Web Scraping",
+        "des": "Collect data from any website. Clean and format data in a user-friendly way.",
+        "source": "https://github.com/tramdangtai/webscraping_projects",
+        "codeIconFontAwesome": "fa-tape"
+    },
+    {
+        "index": 2,
+        "service": "Build a Personal Website",
+        "des": "Use raw data to analyze, find insights, create reports according to user needs",
+        "source": "https://github.com/tramdangtai/portfolio-websites-01-youtuber-greatstack",
+        "codeIconFontAwesome": "fa-code"
+    },
+    {
+        "index": 3,
+        "service": "Data Analysis, Data Visualization",
+        "des": "Convert raw data into easy-to-understand, easy-to-use charts and tables to get the most out of your data.",
+        "source": "https://github.com/tramdangtai/powerbi_projects",
+        "codeIconFontAwesome": "fa-chart-simple"
+    }
+]
